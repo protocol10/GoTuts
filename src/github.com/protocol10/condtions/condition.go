@@ -17,4 +17,15 @@ func main(){
   }else {
     fmt.Println(num, "Number is has multiple Digits ");
   }
+
+  i := 2
+
+  switch i {
+    case 1:
+      fmt.Println("Number is 1")
+    case 2:
+      fmt.Println("Number is 2")
+    case 3:
+      fmt.Println("Number is 3")
+  }
 }
